@@ -1,0 +1,130 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+/*CONTENEDOR*/
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+
+}
+/*ETIQUETAS*/
+body{
+	background-image: url(../img/fondo-azul.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #F2B80D;
+	margin-left: 10px;
+	font-size: 47px;
+	text-align: center;
+	font-weight: bolder
+}
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FF5900;
+	margin-left: 20px;
+	font-size: 30px;
+	text-align: left;
+	font-weight: bolder;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+header{
+	width: 1000px;
+	height: auto;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.2);
+}
+nav{
+	width: 1000px;
+	height: 55px;
+	background: #B3B3B3;
+	border-radius: 5px;
+}
+ul{
+	margin: auto;
+	padding-top: 4px;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #F2B80D;
+	margin: 3px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black inset;
+}
+section{
+	width: 1000px; /*700px*/
+	background: white;
+	height: 600px;
+	float: right;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+img{
+	max-width: 80%;
+}
+/*aside{
+	width: 290px;
+	background: white;
+	height: 600px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}*/
+footer{
+	width: 1000px;
+	height: 70px;
+	float: left;
+	margin-top: 20px;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 27px;
+	text-align: justify;
+	padding: 20px;
+}
+/*CLASES*/
+.ancho-menu-home{
+	width: 900px;
+}
+.ancho-menu-paginas{
+	width: 970px;
+}
+.menu:link{
+	color: black;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.menu:visited{
+	color: black;
+	text-decoration: none;
+}
+.menu:hover{
+	color: black;
+	text-decoration: none;
+}
+.menu:active{
+	color: black;
+	text-decoration: none;
+	text-shadow: 0 0 20px black outset;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 100px;
+}
+/*SEUDO-CLASES*/
